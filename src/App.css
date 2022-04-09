@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(24, 21, 21);
+  padding: 20px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main {
+  width: 380px;
+  height: 460px;
+  background-color: azure;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.info {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+}
+
+.info p {
+  margin-top: 10px;
+  /* line-height: 4px; */
+  color: gray;
+}
+
+.score {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text-center {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  
+}
+
+.orange {
+  color: #e85100;
+}
+
+.green {
+  color: #178313;
+}
+
+.dice-container {
+  display: grid;
+  grid-template: auto / 1fr 1fr 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.die {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.play-button {
+  border: none;
+  outline: none;
+  background-color: rgb(167 118 213);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding: 10px 15px;
+  border-radius: 5px;
+  /* margin-top: 20px; */
+  cursor: pointer;
+  font-size: 1.3rem;
 }

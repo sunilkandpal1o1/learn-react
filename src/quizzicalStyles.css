@@ -1,0 +1,114 @@
+.quizzical-container {
+    width: 550px;
+    min-height: 550px;
+    background-color: #F5F7FB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 25px 40px;
+    padding-top: 35px;
+    position: relative;
+}
+
+.quizzical-info {
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    justify-content: space-between;
+    align-items: center;
+}
+.quizzical-info--heading {
+    text-align: center;
+}
+.quizzical-info h3 {
+    text-align: center;
+    margin-top: 7px;
+    font-weight: 400;
+    color: gray;
+}
+
+.dropdown {
+    width: 200px;
+    height: 29px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #484242;
+    background-color: #ffffff;
+    padding: 5px 7px;
+}
+
+.qz-btn {
+    /* margin-top: 20px; */
+    border: none;
+    background-color: #4D5B9E;
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: white;
+    width: 150px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.margin-top {
+    margin-top: 2rem;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.ques-section {
+    padding: 15px 10px;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+.ques-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 13px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;  
+}
+
+.ques-option {
+    /* background-color: #4D5B9E; */
+    padding: 5px 12px;
+    border: 1px solid #4D5B9E;
+    box-sizing: border-box;
+    border-radius: 7.94239px;
+    cursor: pointer;
+    max-width: 130px;
+}
+
+.result-text {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.back-btn {
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    height: 20px;
+    width: 25px;
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+    background-color: #4d5b9edb;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    transform: scale(1.1);
+}
